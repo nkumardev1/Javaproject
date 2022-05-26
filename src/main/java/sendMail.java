@@ -68,6 +68,8 @@ public class sendMail {
 	            System.out.println("Sent message successfully....");
 	        } catch (MessagingException mex) {
 	            mex.printStackTrace();
+	        } finally {
+	        	
 	        }
 
 	    }
